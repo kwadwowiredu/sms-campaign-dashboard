@@ -1,0 +1,51 @@
+{
+  "account": {
+    "merchantName": "Boakye Yiadom Co.",
+    "creditMicros": 2500000000
+  },
+  "campaigns": [
+    {
+      "id": "cmp_back_to_school",
+      "name": "Back to School Sale",
+      "audienceId": "all",
+      "body": "Back to school deals are here! Get 20% off school bags, shoes and uniforms at our Accra and Kumasi shops. boakyeyiadom.com.gh/school Reply STOP to opt out",
+      "createdAt": "2026-09-10T14:00:00.000Z"
+    },
+    {
+      "id": "cmp_cart_reminder",
+      "name": "Cart Reminder",
+      "audienceId": "abandoned-cart",
+      "body": "Your cart is still waiting for you. Complete your order today and pay easily with MoMo. boakyeyiadom.com.gh/cart Reply STOP to opt out",
+      "createdAt": "2026-09-11T17:30:00.000Z"
+    },
+    {
+      "id": "cmp_vip_early_access",
+      "name": "VIP Early Access",
+      "audienceId": "vip",
+      "body": "Akwaaba, VIP! Our new kente and ankara collection opens to you 48 hours before everyone else, starting Thursday at 9am. Use code AKWAABA for free delivery in Accra and Kumasi. boakyeyiadom.com.gh/vip Reply STOP to opt out",
+      "createdAt": "2026-09-12T13:00:00.000Z"
+    }
+  ],
+  "messages": [
+    { "id": "msg_001", "campaignId": "cmp_vip_early_access", "recipientName": "Akosua Mensah", "recipientPhone": "+233241234508", "status": "Delivered", "sentAt": "2026-09-12T13:00:04.000Z" },
+    { "id": "msg_002", "campaignId": "cmp_vip_early_access", "recipientName": "Kwame Boateng", "recipientPhone": "+233541876203", "status": "Delivered", "sentAt": "2026-09-12T13:00:04.000Z" },
+    { "id": "msg_003", "campaignId": "cmp_vip_early_access", "recipientName": "Priscilla Owusu-Ansah", "recipientPhone": "+233501349927", "status": "Delivered", "sentAt": "2026-09-12T13:00:03.000Z" },
+    { "id": "msg_004", "campaignId": "cmp_vip_early_access", "recipientName": "Selasi Agbeko", "recipientPhone": "+233271560314", "status": "Pending", "statusDetail": "Awaiting carrier receipt", "sentAt": "2026-09-12T13:00:03.000Z" },
+    { "id": "msg_005", "campaignId": "cmp_vip_early_access", "recipientName": "Yaa Asantewaa Darko", "recipientPhone": "+233551207786", "status": "Delivered", "sentAt": "2026-09-12T13:00:02.000Z" },
+    { "id": "msg_006", "campaignId": "cmp_vip_early_access", "recipientName": "Emmanuel Nii Tetteh", "recipientPhone": "+233201784452", "status": "Failed", "statusDetail": "Blocked by carrier spam filter", "sentAt": "2026-09-12T13:00:02.000Z" },
+
+    { "id": "msg_007", "campaignId": "cmp_cart_reminder", "recipientName": "Abdul-Rahman Issah", "recipientPhone": "+233302771264", "status": "Failed", "statusDetail": "Carrier rejected: landline", "sentAt": "2026-09-11T17:30:05.000Z" },
+    { "id": "msg_008", "campaignId": "cmp_cart_reminder", "recipientName": "Adwoa Frimpong", "recipientPhone": "+233249037751", "status": "Delivered", "sentAt": "2026-09-11T17:30:04.000Z" },
+    { "id": "msg_009", "campaignId": "cmp_cart_reminder", "recipientName": "Samuel Kojo Antwi", "recipientPhone": "+233546612098", "status": "Delivered", "sentAt": "2026-09-11T17:30:03.000Z" },
+    { "id": "msg_010", "campaignId": "cmp_cart_reminder", "recipientName": "Naa Adjeley Lamptey", "recipientPhone": "+233205518843", "status": "Delivered", "sentAt": "2026-09-11T17:30:02.000Z" },
+    { "id": "msg_011", "campaignId": "cmp_cart_reminder", "recipientName": "Fuseini Alhassan", "recipientPhone": "+233257340619", "status": "Failed", "statusDetail": "Unreachable handset", "sentAt": "2026-09-11T17:30:01.000Z" },
+
+    { "id": "msg_012", "campaignId": "cmp_back_to_school", "recipientName": "Esi Nyarko", "recipientPhone": "+233244908132", "status": "Delivered", "sentAt": "2026-09-10T14:00:07.000Z" },
+    { "id": "msg_013", "campaignId": "cmp_back_to_school", "recipientName": "Kofi Agyeman", "recipientPhone": "+233553126470", "status": "Delivered", "sentAt": "2026-09-10T14:00:06.000Z" },
+    { "id": "msg_014", "campaignId": "cmp_back_to_school", "recipientName": "Dzifa Amegashie", "recipientPhone": "+233509241785", "status": "Pending", "statusDetail": "Queued with carrier", "sentAt": "2026-09-10T14:00:05.000Z" },
+    { "id": "msg_015", "campaignId": "cmp_back_to_school", "recipientName": "Grace Ama Serwaa Appiah", "recipientPhone": "+233278415036", "status": "Delivered", "sentAt": "2026-09-10T14:00:04.000Z" },
+    { "id": "msg_016", "campaignId": "cmp_back_to_school", "recipientName": "Yaw Asante", "recipientPhone": "+233245671209", "status": "Delivered", "sentAt": "2026-09-10T14:00:03.000Z" },
+    { "id": "msg_017", "campaignId": "cmp_back_to_school", "recipientName": "Ebenezer Darko", "recipientPhone": "+233201093376", "status": "Failed", "statusDetail": "Invalid number", "sentAt": "2026-09-10T14:00:02.000Z" },
+    { "id": "msg_018", "campaignId": "cmp_back_to_school", "recipientName": "Mawuli Tsikata", "recipientPhone": "+233542287614", "status": "Delivered", "sentAt": "2026-09-10T14:00:01.000Z" }
+  ]
+}
