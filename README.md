@@ -1,3 +1,6 @@
+# sms-campaign-dashboard
+A responsive web dashboard for launching SMS broadcasts. The merchant can write a campaign and see exactly what it will cost before sending. After sending, they can watch messages move from `Pending` to `Delivered` or `Failed` in real time, and search or filter everything that has gone out.
+
 # Live SMS Campaign Dashboard
 
 A responsive web dashboard for a Ghanaian merchant, **Boakye Yiadom Co.**, launching SMS broadcasts. The merchant can write a campaign and see exactly what it will cost before sending. After sending, they can watch messages move from `Pending` to `Delivered` or `Failed` in real time, and search or filter everything that has gone out.
@@ -126,9 +129,9 @@ Campaign cost = recipients × SMS count × GH₵0.035
 
 | Status | Billed? | Reason |
 |---|:---:|---|
-| `Delivered` | ✅ | Message reached the handset |
-| `Pending` | ✅ (held) | Charged when sent, refunded if it later fails |
-| `Failed` | ❌ | Merchant is not charged for undelivered messages |
+| `Delivered`| Message reached the handset |
+| `Pending` (held) | Charged when sent, refunded if it later fails |
+| `Failed`| Merchant is not charged for undelivered messages |
 
 - **Money is stored as whole numbers of micro-units** (GH₵1 = 1,000,000), so repeated decimal maths never picks up floating-point errors. For example, GH₵0.035 × 1,000 is exactly GH₵35.00.
 - **Balance = wallet top-ups − billed messages.** The balance is never stored separately.
